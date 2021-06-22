@@ -909,8 +909,7 @@ ul.bullets li:before {
 }
 
 .speaker-area .speaker-item:hover .img-item img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  
 
     -webkit-filter: none; /* Safari 6.0 - 9.0 */
     filter: none;
@@ -1712,7 +1711,7 @@ span.error {
     content: '';
     background-image: url('../images/map.png');
     width: 100%;
-    position: absolute;
+  position: static;
     left: 0;
     right: 0;
     height: 100%;
